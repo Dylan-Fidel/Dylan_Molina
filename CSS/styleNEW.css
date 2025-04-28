@@ -261,7 +261,7 @@ header ul {
 
 .tool i {
   font-size: 1.5rem;
-  color: #32C3AD;
+  color: #32C3AD !important; 
   align-items: flex-start;
 
 }
