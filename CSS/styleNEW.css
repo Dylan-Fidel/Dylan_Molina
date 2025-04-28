@@ -250,6 +250,22 @@ header ul {
   }
 }
 
+.tool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #184E3A;
+}
+
+.tool i {
+  font-size: 1.5rem;
+  color: #32C3AD;
+  align-items: flex-start;
+
+}
+
 /* =====================
    Projects Section
 ===================== */
