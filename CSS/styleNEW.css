@@ -256,16 +256,12 @@ header ul {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  color: #184E3A;
+  color: red;
 }
 
 
 
-.tool-icon {
-   font-size: 1.5rem;
-   color: #63E6BE;
-   align-items: flex-start;
-}
+
 
 
 
