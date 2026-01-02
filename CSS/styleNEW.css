@@ -637,6 +637,102 @@ footer {
   display: block;
 }
 
+/* =====================
+   Leaders Of Trade Page
+===================== */
+
+.project-tasks {
+  display: grid;
+  grid-template-columns: repeat(2, auto); /* Two columns */
+  gap: 20px 10px; /* Row gap, Column gap */
+  padding: 0;
+  margin: 20px 0;
+  list-style: none;
+}
+
+.project-tasks li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.project-tasks li::before {
+  content: "✔";
+  color: #1A7270;
+  font-weight: bold;
+  flex-shrink: 0;
+  margin-top: 2px; /* optional: tweak to align the check vertically */
+}
+
+.grid-2-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 80px; /* Space between the columns */
+  align-items: center; /* Vertically align content */
+  justify-content: space-evenly;
+}
+
+.NOOSA-wesbite {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px; /* optional for smooth corners */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* optional for visual polish */
+}
+
+.noosa-layout {
+  display: flex;
+  gap: 150px;
+  align-items: flex-start;
+}
+
+.sticky-column {
+  position: sticky;
+  top: 40px; /* Adjust this value depending on your header height */
+  align-self: flex-start;
+  max-width: 40%; /* Optional: controls the width of the text column */
+}
+
+
+.sticky-column p {
+  padding-top: 0px;
+  margin-top: 0px;
+  text-align: justify;
+}
+
+.sticky-column .year {
+  margin-top: 50px;
+}
+
+.noosa-images {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  max-width: 40%; /* Optional: controls the width of the image column */
+  border-radius: 8px;
+}
+
+.NOOSA-wesbite {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.image-card {
+  background-color: #32C3AD;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.NOOSA-wesbite {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
 
 /* =====================
    Portfolio Download Button
@@ -645,5 +741,6 @@ footer {
 .portfolio-download a {
   color: #184E3A;
 }
+
 
 
