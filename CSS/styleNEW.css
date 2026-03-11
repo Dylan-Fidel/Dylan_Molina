@@ -224,7 +224,9 @@ header ul {
    Projects Section
 ===================== */
 .projects-section {
-  padding: 0px;
+  background-color: #EAEEE5;
+  border-radius: 12px;
+  padding: 60px 0px;
   border-radius: 12px;
 }
 
@@ -934,6 +936,7 @@ footer {
 .portfolio-download a {
   color: #184E3A;
 }
+
 
 
 
