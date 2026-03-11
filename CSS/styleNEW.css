@@ -140,53 +140,7 @@ header ul {
   background-color: #184E3A;
 }
 
-/* =====================
-   Services Section
-===================== */
-.services {
-  padding: 60px;
-  border-radius: 12px;
-}
 
-.services h2 {
-  text-align: center;
-  font-size: 3rem;
-  margin-bottom: 40px;
-}
-
-.services-list {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  gap: 100px;
-  flex-wrap: wrap;
-}
-
-.services-list li {
-  flex: 1;
-  min-width: 180px;
-  max-width: 250px;
-  text-align: center;
-}
-
-.services-list p {
-  font-size: 1.2rem;
-  color: #5a5a5a;
-}
-
-.icon-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 10px;
-}
-
-.icon-title img {
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
-}
 
 /* =====================
    Toolkit Section
@@ -568,7 +522,9 @@ footer {
 
 /* ── Core Skills ── */
 .core-skills {
-  padding: 0rem 2rem;
+   background-color: #EAEEE5;
+  border-radius: 12px;
+  padding: 3rem 2rem;
   text-align: center;
 }
 
@@ -978,6 +934,7 @@ footer {
 .portfolio-download a {
   color: #184E3A;
 }
+
 
 
 
